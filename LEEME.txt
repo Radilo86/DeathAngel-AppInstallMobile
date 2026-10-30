@@ -1,0 +1,34 @@
+SPACE HULK: DEATH ANGEL · SOLITARIO — VERSIÓN INSTALABLE
+
+Esta carpeta convierte el juego en una aplicación para el móvil o el ordenador:
+icono propio en la pantalla de inicio, pantalla completa y funcionamiento sin internet.
+
+POR QUÉ HAY QUE SUBIRLA A UNA WEB
+Los navegadores sólo permiten instalar aplicaciones que se abren desde una dirección https.
+Abriendo index.html directamente desde el móvil funciona como la versión normal, pero no se instala.
+
+CÓMO PUBLICARLA (gratis, unos minutos)
+Opción A – Netlify Drop
+  1. Entra en https://app.netlify.com/drop desde un ordenador.
+  2. Arrastra esta carpeta completa (no el .zip) a la página.
+  3. Te da una dirección del tipo https://nombre-aleatorio.netlify.app
+Opción B – GitHub Pages
+  1. Crea un repositorio y sube estos archivos tal cual.
+  2. En Settings > Pages, publica la rama principal.
+  3. La dirección será https://tu-usuario.github.io/tu-repositorio/
+Opción C – Cualquier alojamiento con https (Cloudflare Pages, tu propio servidor…).
+Mantén juntos todos los archivos: index.html, manifest.webmanifest, sw.js y los iconos.
+
+CÓMO INSTALARLA
+  · Android (Chrome): abre la dirección, menú ⋮ > «Instalar aplicación» o «Añadir a pantalla de inicio».
+  · iPhone/iPad (Safari): abre la dirección, botón Compartir > «Añadir a pantalla de inicio».
+  · Ordenador (Chrome/Edge): icono de instalar en la barra de direcciones.
+Tras abrirla una vez con conexión, funciona sin internet.
+
+TUS DATOS
+La aplicación instalada guarda la partida y el historial aparte del archivo HTML suelto.
+Para pasarlos de uno a otro usa Ajustes > Copia de seguridad > Exportar / Importar.
+
+ACTUALIZAR
+Sustituye los archivos publicados por los de una versión nueva. La próxima vez que abras
+la aplicación con conexión se descargará la versión nueva (puede requerir cerrarla y abrirla de nuevo).
